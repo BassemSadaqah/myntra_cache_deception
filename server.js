@@ -37,7 +37,7 @@ app.get('/retrieve',(req,res)=>{
     //     'Accept-Language': 'en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7',
     // }
     axios
-        .get(`https://de95be0fea559f49c305bf405fc7189b.m.pipedream.net`, {validateStatus: false})
+        .get(`https://www.myntra.com/x/${key}.css`, {validateStatus: false})
         .then(response => {
             cache_status = response.headers['server-timing'].split(';')[1].split(',')[0].trim()
             if (cache_status == 'desc=HIT'){
