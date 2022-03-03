@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/BassemSadaqah/myntra_cache_deception#readme",
   "dependencies": {
+    "axios": "^0.26.0",
     "body-parser": "^1.19.2",
+    "crypto": "^1.0.1",
     "express": "^4.17.3"
   }
 }
