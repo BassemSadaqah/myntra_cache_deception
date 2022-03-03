@@ -47,7 +47,7 @@ app.get('/retrieve',(req,res)=>{
                     console.log(result[0])
                     res.send(result)
                 }else{
-                    res.send('Something went wrong')
+                    res.send(response.data)
                 }
             } else {
                 var retries = req.query.retries ? req.query.retries:0
